@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One|Flamenco|Zilla+Slab+Highlight" rel="stylesheet">
+    <style>
+            body {
+            margin: 0;
+            background-color: #F0F8FF;
+            background: -webkit-linear-gradient(top, #D3D3D3, #FFF0F5);
+            background: -moz-linear-gradient(top, #D3D3D3, #FFF0F5);
+            background: -ms-linear-gradient(top, #D3D3D3, #FFF0F5);
+            background: -o-linear-gradient(top, #D3D3D3, #FFF0F5s);
+            font-family: 'Flamenco', cursive;
+            font-size: 120%;
+        }
+        
+        .header {
+            position: relative;
+            text-align: center;
+            margin: 0px;
+            padding: 1px;
+            color: cornflowerblue;
+            background-color: mintcream;
+            width: 100%;
+            top: -1px;
+            height: 80px;
+        }
+        
+        img {
+            display: block;
+            margin: auto;
+            width: 800px;
+        }
+        
+        ul.sidenav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+        
+        ul.sidenav li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        
+        ul.sidenav li a.active {
+            background-color: #00BFFF;
+            color: white;
+        }
+        
+        ul.sidenav li a:hover:not(.active) {
+            background-color: #07303d;
+            color: white;
+        }
+        
+        div.content {
+            margin-left: 25%;
+            padding: 1px 16px;
+            height: 1000px;
+        }
+        
+        @media screen and (max-width: 1050px) {
+            ul.sidenav {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            ul.sidenav li a {
+                float: left;
+                padding: 15px;
+            }
+            div.content {
+                margin-left: 0;
+            }
+        }
+        
+        @media screen and (max-width: 400px) {
+            ul.sidenav li a {
+                text-align: center;
+                float: none;
+            }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Mobile Phones</h1>
+    </div>
+
+
+    <ul class="sidenav">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="apple.html">Apple</a></li>
+        <li><a href="samsung.html">Samsung</a></li>
+        <li><a href="htc.html">HTC</a></li>
+        <li><a href="sony.html">Sony</a></li>
+    </ul>
+
+
+    <div class="content">
+
+        <h2>Used and New Mobile Phones</h2>
+        <p> Our mobile phones are of the best quality and highest standard. We offer many manufacturers varying from Apple, Samsung, HTC and Sony.</p>
+
+        <img src="image/home.png">
+
+    </div>
+
+
+</body>
+
+</html>
